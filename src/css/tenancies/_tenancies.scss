@@ -1,0 +1,63 @@
+.jobs {
+  .tenancyJob {
+    cursor: default;
+    display: flex;
+    align-items: center;
+
+    &.rent {
+      &.row {
+        margin: 0;
+
+        &.active {
+          background: #449d44;
+        }
+
+        &.overdue {
+          background: #ff3368;
+        }
+      }
+    }
+
+    p {
+      margin: 0;
+    }
+
+    &.odd {
+      &:hover {
+        background: #ddd;
+      }
+    }
+
+    &.even {
+      background: #eee;
+      &:hover {
+        background: #ddd;
+      }
+    }
+
+    .glyphicon {
+      color: #ccc;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+
+.TenancyStatementModal {
+  .row {
+    margin-bottom: 10px;
+  }
+}
+
+.header {
+  .accountOverview {
+    a {
+      display: block;
+    }
+    span {
+      margin-left: 15px;
+    }
+  }
+}

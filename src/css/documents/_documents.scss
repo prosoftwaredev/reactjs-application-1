@@ -1,0 +1,14 @@
+.documents {
+  padding: 15px;
+  // background: #fff;
+  
+  .contacts-content {
+    .contact-row {
+      min-height: initial;
+
+      >div {
+        min-height: 44px;
+      }
+    }
+  }
+}

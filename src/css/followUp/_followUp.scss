@@ -1,0 +1,45 @@
+.followUp {
+  .managementRow {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 15px;
+    
+    .control-label {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .managements {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .management {
+    cursor: default;
+
+    &:hover {
+      background: #ddd;
+    }
+
+    &.even {
+      background: #eee;
+    }
+
+    .glyphicon {
+      color: #ccc;
+
+      &:hover {
+        color: #000;
+      }
+    }
+
+    .glyphicon-ok {
+      color: #449d44;
+
+      &:hover {
+        color: #449d44;
+      }
+    }
+  }
+}
